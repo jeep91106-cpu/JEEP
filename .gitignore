@@ -1,0 +1,21 @@
+# 排除大视频文件（暂不上传，待压缩后再添加）
+video/*.mp4
+
+# 但保留缩略图
+!video/thumbnails/
+
+# 压缩后的视频（如果存在）
+!video-compressed/
+
+# 临时文件和系统文件
+terminals/
+.DS_Store
+Thumbs.db
+*.log
+
+# PowerShell 脚本生成的临时文件
+video-compressed/
+
+# 本地配置
+.vscode/
+.idea/
