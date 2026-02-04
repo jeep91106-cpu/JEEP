@@ -1,0 +1,8 @@
+name = "jeep-resume"
+compatibility_date = "2026-02-04"
+
+[site]
+bucket = "."
+
+# 静态资产配置
+# 指定当前目录为静态资产目录
